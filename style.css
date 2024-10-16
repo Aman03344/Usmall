@@ -1,0 +1,453 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Lato, Helvetica, Arial, Geneva, Helmet, Freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* border: 1px solid purple; */
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.top-navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #faecec;
+}
+
+.top-navbar p:nth-child(1){
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.661);
+}
+
+.top-navbar p i{
+    color: #DD3737;
+}
+
+.top-navbar p:nth-child(2){
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.661);
+}
+
+/*  top nav bar end */
+
+.menu-nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+}
+
+.logo-section{
+    width: 10%;
+    height: auto;
+    padding: 10px;
+}
+
+.logo-section h2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DD3737;
+}
+
+.logo-section h2 em{
+    color: black;
+    font-style: normal;
+}
+
+.logo-section h2 i{
+    color: #DD3737;
+}
+
+.search-bar{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.line-box{
+    width: 500px;
+    height: 40px;
+    border-radius: 24px ;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.435);
+}
+
+.line-box i{
+    color: #DD3737;
+}
+
+.line-box input{
+    width: 400px;
+    height: 33px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.line-box button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #DD3737;
+    border-radius: 24px;
+    border: none;
+    margin-right: -10px;
+}
+
+.bag-btn{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+
+}
+
+.bag-btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #DD3737;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.921);
+    background-color: white;
+    transition:  0.2s 0.2 ease-in-out;
+}
+
+.bag-btn button {
+    width: 120px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #DD3737;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.921);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 105, 135, 0.2); 
+    transition: all 0.4s ease-in-out;
+}
+
+.bag-btn button:hover {
+    background-color: #ffe6e6; 
+    box-shadow: 0 0 10px rgba(255, 105, 135, 0.6), 0 0 60px rgba(255, 105, 135, 0.4); 
+    transform: scale(1.1); 
+    border-color: transparent;
+}
+
+
+.bag-btn button i{
+    color: #DD3737;
+}
+
+/* ||||||\\\\ */
+.bottom-navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-top: 1px solid rgba(0, 0, 0, 0.298);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.298);
+}
+
+.text-content{
+    width: 50%;
+    height: auto;
+}
+
+.text-content ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.text-content ul li {
+
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, #000000,  #666666); 
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-decoration: underline;
+    text-decoration-color: transparent; 
+    transition:  0.5s ease-in-out,  0.4s ease-in-out;
+}
+
+.text-content ul li:hover {
+   transform: scale(1.1);
+    text-decoration-color: #ff512f; 
+}
+
+
+.btn-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.btn-container p{
+ 
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 14px;
+
+}
+
+.btn-container p i{
+    color: #DD3737;
+}
+
+/* bottom navbar end */
+
+.image-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bg-image{
+    width: 97%;
+    height: 280px;
+    background-image: url(./bs_zaglushka_sentyabr_g_desktop_3x_67342f0fadwx2.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bg-image a{
+    width: 40px;
+    height: 40px;
+   background: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DD3737;
+    border: 2px solid#fafafa;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+}
+
+
+/* image container end */
+
+
+.dot-container{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #dd373747;
+    border-radius: 20px;
+}
+
+.dot-container .dot:first-child {
+    background-color: red;
+}
+
+
+/* dot container end */
+
+.popular-heading{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+}
+
+.popular-heading h1{
+    font-weight: 400;
+}
+
+
+/* popular heading end */
+
+.cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.cards{
+    width: 190px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards p{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-top: 10px;
+    /* border: 1px solid yellowgreen;  */
+    
+}
+
+.image-card1{
+    width: 190px;
+    height: 170px;
+    border-radius: 26px;
+    background-image: url(./pl_kategorii_sentyabr_g_mob_detyam_3x_74f9041d7ex2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out; 
+    
+}
+
+.image-card1:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffcce1; 
+}
+
+.image-card2{
+    width: 190px;
+    height: 170px;
+    border-radius: 26px;
+    background-image: url(./pl_kategorii_sentyabr_g_mob_sumki_i_ryukzaki_3x_e1e51c7728x2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out; 
+}
+
+.image-card2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffcce1; 
+}
+
+.image-card3{
+    width: 190px;
+    height: 170px;
+    border-radius: 26px;
+    background-image: url(./pl_kategorii_sentyabr_g_mob_obuv_3x_a193936118x2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out; 
+}
+
+.image-card3:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffcce1; 
+}
+
+
+
+.image-card4{
+    width: 190px;
+    height: 170px;
+    border-radius: 26px;
+    background-image: url(./t-shirt.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out; 
+}
+
+.image-card4:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffcce1; 
+}
+
+.image-card5{
+    width: 190px;
+    height: 170px;
+    border-radius: 26px;
+    background-image: url(./image1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out; 
+}
+
+.image-card5:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffcce1; 
+}
+
+.image-card6{
+    width: 190px;
+    height: 170px;
+    border-radius: 26px;
+    background-image: url(./image2.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease-in-out, 0.3s ease-in-out; 
+}
+
+.image-card6:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px #ffcce1; 
+}
+
+/* .... */
+
+
+.mobile-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
